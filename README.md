@@ -24,3 +24,7 @@
 - /api/images/:_id
 - /api/images/:category
 - /api/images/:date
+
+## generate JWT secret key
+### terminal command:
+` openssl rand -base64 16`
